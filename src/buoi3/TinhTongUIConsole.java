@@ -25,7 +25,7 @@ public class TinhTongUIConsole {
 		keyboard = new Scanner(System.in);
 		
 		//khởi tạo đối tượng PrintWriter
-		stdOut = new PrintWriter(new OutputStreamWriter(System.out));
+		stdOut = new PrintWriter(System.out);
 		
 		
 		
@@ -36,6 +36,7 @@ public class TinhTongUIConsole {
 		int soThuNhat, soThuHai, ketQua;
 		stdOut.print("Hay nhap vao so thu nhat:");
 		stdOut.flush();
+
 		soThuNhat = keyboard.nextInt();
 		stdOut.print("Hay nhap vao so thu hai:");
 		stdOut.flush();
