@@ -22,7 +22,8 @@ public class SinhVien {
 	}
 	
 	public String toString() {
-		return "Ma so SV: " + maSV;
+		return "Ma so SV: " + maSV 
+				+ "\nHo va ten sv: " + hoTen;
 	}
 	
 	//getter va setter
