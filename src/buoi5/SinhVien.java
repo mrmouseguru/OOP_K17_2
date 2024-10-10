@@ -3,21 +3,21 @@ package buoi5;
 public class SinhVien {
 	
 	//fields
-	int maSV;
-	String hoTen;
-	float diemLT;
-	float diemTH;
+	private int maSV;
+	private String hoTen;
+	private float diemLT;
+	private float diemTH;
 	
 	//functions - methods
-	SinhVien(){}
-	SinhVien(int _maSV, String _hoTen, float _diemLT, float _diemTH){
+	public SinhVien(){}
+	public SinhVien(int _maSV, String _hoTen, float _diemLT, float _diemTH){
 		maSV = _maSV;
 		hoTen = _hoTen;
 		diemLT = _diemLT;
 		diemTH = _diemTH;
 	}
 	
-	float tinhDiemTrungBinh(){
+	public float tinhDiemTrungBinh(){
 		return 0;
 	}
 	
@@ -26,6 +26,17 @@ public class SinhVien {
 				+ "\nHo va ten sv: " + hoTen;
 	}
 	
-	//getter va setter
+	// setter
+	public void setMaSV(int _maSV) {
+		maSV = _maSV;
+	}
+	
+	public void setHoTen(String _hoTen) {
+		hoTen = _hoTen;
+	}
+	//getter va
+	public int getMaSV() {
+		return maSV;
+	}
 
 }

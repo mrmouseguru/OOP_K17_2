@@ -16,10 +16,10 @@ public class AppSinhVien {
 		SinhVien sv3Remote = new SinhVien();
 		//nhap thong tin tu ban phim cho sv3
 		System.out.print("Nhap ma so sv3:");
-		sv3Remote.maSV = input.nextInt();//3333Enter
+		sv3Remote.setMaSV(input.nextInt());//3333Enter
 		input.nextLine();//Enter
 		System.out.print("Nhap ten sv3:");
-		sv3Remote.hoTen = input.nextLine();
+		sv3Remote.setHoTen(input.nextLine());
 		System.out.print("Nhap diem ly thuyet sv3:");
 		sv3Remote.diemLT = input.nextFloat();
 		System.out.print("Nhap diem thuc hanh sv3:");
