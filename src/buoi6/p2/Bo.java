@@ -9,11 +9,16 @@ import buoi6.p1.DongVat;
 public class Bo extends DongVat
 {
     
+	private float khoiLuongSua;
     
     //
     public Bo(){}
     
     public String toString() {
     	return "tuoi: " + tuoi;
+    }
+    
+    public void nhaiLai() {
+    	System.out.println("Bo nhai lai ...");
     }
 }

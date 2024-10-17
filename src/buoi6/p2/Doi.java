@@ -11,5 +11,9 @@ public class Doi extends DongVat{
 	public String toString() {
 		return "gioi tinh: " + gioiTinh;
 	}
+	
+	public void bay() {
+		System.out.println("Doi bay ....");
+	}
 
 }
