@@ -3,9 +3,9 @@ package buoi6.p1;
 public class DongVat {
 	
 	//field
-	int tuoi;
-	private float canNang;
-	private boolean gioiTinh;
+	protected int tuoi;
+	protected float canNang;
+	protected boolean gioiTinh;
 	
 	//function
 	public DongVat() {
