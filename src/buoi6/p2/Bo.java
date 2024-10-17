@@ -14,6 +14,11 @@ public class Bo extends DongVat
     //
     public Bo(){}
     
+    public Bo(int _tuoi, float _canNang, boolean _gioiTinh, float _khoiLuongSua) {
+    	super(_tuoi, _canNang, _gioiTinh);//gọi hàm khởi tạo của class cha
+    	khoiLuongSua = _khoiLuongSua;
+    }
+    
     public String toString() {
     	return "tuoi: " + tuoi;
     }
