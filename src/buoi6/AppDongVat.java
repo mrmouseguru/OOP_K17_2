@@ -4,6 +4,7 @@ import buoi6.p1.Cho;
 import buoi6.p1.DongVat;
 import buoi6.p2.Bo;
 import buoi6.p2.Doi;
+import buoi7.Cop;
 
 public class AppDongVat {
 
@@ -37,6 +38,9 @@ public class AppDongVat {
 		
 		dvRemote = new Doi();
 		dvRemote.keu();// hàm trừu tượng
+		
+		dvRemote = new Cop();
+		dvRemote.keu();
 
 	}
 
