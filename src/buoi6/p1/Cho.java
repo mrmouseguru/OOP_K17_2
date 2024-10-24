@@ -19,7 +19,7 @@ public class Cho extends DongVat
     @Override //annotation : chú thích hàm này là
     //hàm ghi đè override
     public void keu() {
-    	System.out.print("Cho sua gau gau ...");
+    	System.out.println("Cho sua gau gau ...");
     }
 
 }

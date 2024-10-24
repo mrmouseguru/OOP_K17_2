@@ -15,5 +15,10 @@ public class Doi extends DongVat{
 	public void bay() {
 		System.out.println("Doi bay ....");
 	}
+	
+	@Override
+	public void keu() {
+		System.out.println("Doi keu rit rit ...");
+	}
 
 }

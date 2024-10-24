@@ -2,6 +2,7 @@ package buoi6;
 
 import buoi6.p1.Cho;
 import buoi6.p2.Bo;
+import buoi6.p2.Doi;
 
 public class AppDongVat {
 
@@ -14,6 +15,9 @@ public class AppDongVat {
 		
 		Cho cho1Remote = new Cho();
 		cho1Remote.keu();
+		
+		Doi doiRemote = new Doi();
+		doiRemote.keu();
 
 	}
 

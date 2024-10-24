@@ -26,4 +26,9 @@ public class Bo extends DongVat
     public void nhaiLai() {
     	System.out.println("Bo nhai lai ...");
     }
+    
+    @Override
+    public void keu() {
+    	System.out.println("Bo keu Um bo...");
+    }
 }
