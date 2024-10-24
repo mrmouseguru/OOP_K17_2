@@ -16,5 +16,10 @@ public class Cho extends DongVat
     public String toString(){
         return "tuoi: " + tuoi;
     }
+    @Override //annotation : chú thích hàm này là
+    //hàm ghi đè override
+    public void keu() {
+    	System.out.print("Cho sua gau gau ...");
+    }
 
 }
