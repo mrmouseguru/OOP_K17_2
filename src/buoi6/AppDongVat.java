@@ -30,13 +30,13 @@ public class AppDongVat {
 		//ĐA HÌNH
 		DongVat dvRemote = null;
 		dvRemote = new Bo();
-		dvRemote.keu();
+		dvRemote.keu();///hàm trừu tượng
 		///     DongVat    Bo
 		dvRemote = new Cho();
-		dvRemote.keu();
+		dvRemote.keu();//hàm trừu tượng
 		
 		dvRemote = new Doi();
-		dvRemote.keu();
+		dvRemote.keu();// hàm trừu tượng
 
 	}
 

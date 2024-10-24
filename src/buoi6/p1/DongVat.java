@@ -1,6 +1,6 @@
 package buoi6.p1;
 
-public class DongVat {
+public abstract class DongVat {
 	
 	//field
 	protected int tuoi;
@@ -28,8 +28,9 @@ public class DongVat {
 		System.out.println("Dong Vat ngu ...");
 	}
 	
-	public void keu() {
-		System.out.println("Dong Vat keu ...");
-	}
+	public abstract void keu(); //phải ở trong abstract class
+//	{
+//		System.out.println("Dong Vat keu ...");
+//	}
 
 }

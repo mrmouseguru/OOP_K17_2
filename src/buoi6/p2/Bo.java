@@ -29,6 +29,7 @@ public class Bo extends DongVat
     
     @Override
     public void keu() {
+    	//super.keu();//gọi hàm keu() của class cha
     	System.out.println("Bo keu Um bo...");
     }
 }
