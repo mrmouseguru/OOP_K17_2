@@ -16,14 +16,19 @@ public class ExceptionDemo {
 			//System.out.println("Sau dong nextLine()");
 			number = keyboardInput.nextInt();
 		}
-		catch(NullPointerException nullEx) {
-			System.out.println("Co ngoai le xay ra !!!");
+		catch (Exception e) {
+			System.out.println("Co ngoai le xay ra !!!" 
+		+ e.getMessage());
 		}
-		catch(InputMismatchException inpuEx) {
-			System.out.
-			println("Co ngoai le xay ra InptMismatch!!!: " + 
-			inpuEx.getMessage());
-		}
+//		catch(NullPointerException nullEx) {
+//			System.out.println("Co ngoai le xay ra !!!");
+//		}
+//		catch(InputMismatchException inpuEx) {
+//			System.out.
+//			println("Co ngoai le xay ra InptMismatch!!!: " + 
+//			inpuEx.getMessage());
+//			
+//		}
 		System.out.println(str + " number: " + number);
 	}
 
